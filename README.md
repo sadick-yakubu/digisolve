@@ -1,2 +1,2 @@
 # digisolve
-This website is created for an imaginary digital company company called digisolve.
+This website is created for an imaginary digital company called digisolve.
