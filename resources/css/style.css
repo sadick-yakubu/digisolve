@@ -8,3 +8,7 @@ html{
     color: #000;
     text-rendering: optimizeLegibility;
 }
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
