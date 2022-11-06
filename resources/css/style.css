@@ -214,3 +214,11 @@ h2{
     background-color: #ed07b7;
     color: #fff;
 }
+/***** PARTNERS SECTION *****/
+.partners-section{
+    text-align: center;
+}
+.partner-logo{
+    width: 65%;
+    height: auto;
+}
