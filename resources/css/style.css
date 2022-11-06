@@ -222,3 +222,45 @@ h2{
     width: 65%;
     height: auto;
 }
+/***** TESTIMONIALS SECTION *****/
+.testimonials-section{
+    text-align: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.8)), url(./img/testimonial-background.jpg);
+    color: #fff;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.testimonial-heading{
+    font-size: 250%;
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+.testimonial-box{
+    text-align: left;
+    margin-bottom: 50px;
+}
+blockquote{
+    font-style: italic;
+    padding: 2%;
+    height: 145%;
+    position: relative;
+}
+blockquote:before{
+   content: "\201C";
+   display: block;
+   font-size: 500%;
+   position: absolute;
+   top: -35px;
+   left: -5px;
+}
+cite{
+    display: block;
+    margin-top: 25px;
+    font-size: 90%;
+}
+cite img{
+    border-radius: 50%;
+    height: 20%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
