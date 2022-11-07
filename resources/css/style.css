@@ -333,3 +333,45 @@ cite img{
 .packages-box div:first-child{
     background-color: #fcfcfc;
 }
+/***** CONTACT FORM SECTION *****/
+.contact-section{
+    text-align: center;
+}
+.contact-heading{
+    color: #000;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.contact-form{
+    text-align: left;
+    width: 60%;
+    margin: 0 auto;
+    color: #555;
+}
+input[type=text],input[type=email],textarea{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+textarea{
+    height: 100px;
+}
+input[type=checkbox]{
+    margin: 10px 5px 10px 0;
+}
+input[type=submit]{
+    padding: 10px 30px;
+    border-radius: 200px;
+    display: inline-block;
+    background-color: #ed07b7;
+    color: #fff;
+    border: 0;
+}
+input[type=submit]:hover{
+    background-color: #bd0592; 
+}
+*:focus{
+    outline: none;
+}
