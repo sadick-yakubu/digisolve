@@ -87,7 +87,7 @@ h2{
     border-bottom: 2px solid #ed07b7;
 }
 .logo{
-    height: 120px;
+    height: 100px;
     width: auto;
     float: left;
 }
@@ -431,6 +431,6 @@ footer{
 }
 footer p{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
     line-height: 1.5;
 }
