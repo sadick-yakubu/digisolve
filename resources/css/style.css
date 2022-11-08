@@ -27,6 +27,7 @@ html, body{
 }
 /***** HEADER SECTION *****/
 header{
+    background-image: -webkit-linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.8)),url(./img/header-img.jpg);
     background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.8)),url(./img/header-img.jpg);
     height: 100vh;
     background-size: cover;
@@ -37,7 +38,8 @@ header{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     text-align: center;
 }
 h1{
@@ -81,6 +83,7 @@ h2{
 .main-nav li a:link, .main-nav li a:visited{
     text-decoration: none;
     color: #fff;
+    -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
 .main-nav li a:hover, .main-nav li a:active{
@@ -117,6 +120,7 @@ h2{
 .btn-ghost:link,.btn-ghost:visited{
     border: 2px solid #ed07b7;
     color: #ed07b7;
+    -webkit-transition: background-color 0.2s;
     transition: background-color 0.2s;
 }
 .btn-ghost:hover,.btn-ghost:active{
@@ -170,11 +174,16 @@ h2{
     width: 100%;
     height: auto;
     opacity: 0.7;
-    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
     transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
 }
 .portfolio-image img:hover{
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
     opacity: 1;
 }
 .work-para{
@@ -212,6 +221,7 @@ h2{
 }
 .service-link:hover, .service-link:active{
     border-radius: 200px;
+    -webkit-transition: background-color 0.2s;
     transition:background-color 0.2s;
     background-color: #ed07b7;
     color: #fff;
@@ -227,6 +237,7 @@ h2{
 /***** TESTIMONIALS SECTION *****/
 .testimonials-section{
     text-align: center;
+    background-image:-webkit-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.8)), url(./img/testimonial-background.jpg);
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.8)), url(./img/testimonial-background.jpg);
     color: #fff;
     background-size: cover;
@@ -396,6 +407,7 @@ footer{
 .footer-nav li a:link, .footer-nav li a:visited{
     color: #888;
     text-decoration: none;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 .footer-nav li a:hover, .footer-nav li a:active{
@@ -412,6 +424,7 @@ footer{
     font-size: 200%
 }
 .fa-facebook,.fa-github,.fa-instagram,.fa-twitter,.fa-youtube{
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 .fa-facebook:hover{
