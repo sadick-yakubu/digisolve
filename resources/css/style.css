@@ -467,3 +467,14 @@ footer p{
     margin-top: 50px;
     line-height: 1.5;
 }
+/***** JQUERY ANIMATE ON SCROLLING *****/
+.about-box{
+    opacity: 0;
+    animation-duration: 1s;
+}
+.about-box.animate__animated{
+    opacity: 1;
+}
+.js--service-box{
+    animation-duration: 1.5s;
+} 

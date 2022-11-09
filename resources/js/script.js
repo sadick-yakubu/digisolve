@@ -1,3 +1,4 @@
+/* Adding Sticky Navigation */ 
 $(document).ready(function(){
     $(".about-section").waypoint(function(direction){
         if(direction=="down"){
@@ -8,4 +9,20 @@ $(document).ready(function(){
         }
     });
 
+    $(".js--about-section").waypoint(function(direction){
+        $(".js--about-box").addClass("animate__animated animate__fadeIn");
+    },{
+        offset:"50%"
+    });
+
+    $(".js--services-section").waypoint(function(direction){
+        $(".js--service-box").addClass("animate__animated animate__zoomIn");
+    },{
+        offset:"50%"
+    });
+
+    $(".js--packages-section").waypoint(function(direction){
+        $(".js--enterprise").addClass("animate__animated animate__pulse");
+    },{
+    });
 });
