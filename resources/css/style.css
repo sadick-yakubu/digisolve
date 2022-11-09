@@ -112,6 +112,7 @@ h2{
 .sticky-nav .main-nav li a:link,
 .sticky-nav .main-nav li a:visited{
     color: #555;
+    padding: 5px 0;
 }
 /***** ABOUT SECTION *****/
 .laptop-image{
